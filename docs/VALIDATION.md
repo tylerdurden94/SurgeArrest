@@ -13,7 +13,7 @@
   bounded retries, 45-second expiry, replacement, confirmation correlation,
   timer wrap, and independent outlet requests.
 - The standalone ESP32 firmware built successfully for `esp32dev` using
-  Espressif32 7.1.3 / Arduino core 2.0.17. Flash use: **873,385 bytes (66.6%)**;
+  Espressif32 7.1.3 / Arduino core 2.0.17. Flash use: **873,305 bytes (66.6%)**;
   static RAM: **49,188 bytes (15.0%)**.
 - SmartThings accepted the public driver package, including its standalone
   `_surgearrest._tcp` discovery definition and three standard-capability profiles.
