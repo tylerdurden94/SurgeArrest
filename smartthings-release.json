@@ -1,0 +1,12 @@
+{
+  "channelName": "TylerDurden94’s Edge Drivers",
+  "channelId": "36c02108-d699-4e4b-bed9-d019f5d3af9a",
+  "driverName": "APC SurgeArrest ESP Bridge",
+  "driverId": "aa31ef7f-2661-4b96-b988-d290cf72b660",
+  "driverVersion": "2026-10-23T21:29:17.479543528",
+  "packageKey": "tylerdurden94.apc.surgearrest",
+  "invitationUrl": "https://bestow-regional.api.smartthings.com/invite/oDM8Q4Bkgp2L",
+  "firmwareVersion": "surgearrest-0.1.0",
+  "sourceRelease": "v0.1.0",
+  "status": "beta"
+}

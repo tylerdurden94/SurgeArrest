@@ -1,0 +1,11 @@
+.pio/
+.venv/
+__pycache__/
+*.pyc
+*.bin
+*.elf
+*.zip
+config.json
+*_token.txt
+.env
+private/
