@@ -1,0 +1,58 @@
+name: apc-surge-arrest.v2
+components:
+  - id: main
+    label: Outlet 1
+    capabilities:
+      - id: switch
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: SmartPlug
+  - id: outlet2
+    label: Outlet 2
+    capabilities:
+      - id: switch
+        version: 1
+    categories:
+      - name: SmartPlug
+  - id: outlet3
+    label: Outlet 3
+    capabilities:
+      - id: switch
+        version: 1
+    categories:
+      - name: SmartPlug
+  - id: usb_charger1
+    label: USB charger 1
+    capabilities:
+      - id: switch
+        version: 1
+    categories:
+      - name: SmartPlug
+  - id: usb_charger2
+    label: USB charger 2
+    capabilities:
+      - id: switch
+        version: 1
+    categories:
+      - name: SmartPlug
+  - id: led
+    label: Strip LED
+    capabilities:
+      - id: switch
+        version: 1
+    categories:
+      - name: Light
+preferences:
+  - title: APC bridge token
+    name: apcToken
+    description: The private APC API token provisioned to your SurgeArrest ESP32 over USB
+    required: false
+    preferenceType: string
+    definition:
+      stringType: password
+      minLength: 0
+      maxLength: 128
+      default: ""
+
