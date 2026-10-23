@@ -1,0 +1,2 @@
+mdns:
+  - service: _surgearrest._tcp

@@ -1,0 +1,7 @@
+name: APC SurgeArrest ESP Bridge
+packageKey: tylerdurden94.apc.surgearrest
+description: Local APC PH6U4X32W outlet, USB charger, and LED control through a standalone ESP32
+vendorSupportInformation: https://github.com/tylerdurden94/SurgeArrest/issues
+permissions:
+  lan: {}
+  discovery: {}
